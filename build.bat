@@ -9,7 +9,7 @@
 ::      integration builds.
 ::
 ::******************************************************
-:: Copyright 2019 - Third Pole Therapeutics
+:: Copyright 2020 - Third Pole Therapeutics
 ::******************************************************
 REM Default Software Path Locations
 set SSP_INSTALL_LOC=C:\Renesas\Synergy\ssc_v7.5.1_ssp_v1.7.0\eclipse
