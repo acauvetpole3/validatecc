@@ -9,12 +9,12 @@
 ::      integration builds.
 ::
 ::******************************************************
-:: Copyright 2019 - Third Pole Therapeutics
+:: Copyright 2020 - Third Pole Therapeutics
 ::******************************************************
 REM Default Software Path Locations
 set SSP_INSTALL_LOC=C:\Renesas\Synergy\ssc_v7.5.1_ssp_v1.7.0\eclipse
 set IAR_INSTALL_LOC="C:\Program Files (x86)\IAR Systems\Embedded Workbench for Synergy 8.23.3\common\bin"
-set PYTHON_LOC=C:\Python37
+set PYTHON_LOC=C:\ProgramData\Anaconda2
 set RUBY_LOC=C:\Ruby25-x64
 REM Default Parameters - Generate Configuration, Debug Build for MCB Hardware
 set SYNERGY=1
