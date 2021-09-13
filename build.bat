@@ -14,7 +14,7 @@
 REM Default Software Path Locations
 set SSP_INSTALL_LOC=C:\Renesas\Synergy\ssc_v7.5.1_ssp_v1.7.0\eclipse
 set IAR_INSTALL_LOC="C:\Program Files (x86)\IAR Systems\Embedded Workbench for Synergy 8.23.3\common\bin"
-set PYTHON_LOC=C:\ProgramData\Anaconda2
+set PYTHON_LOC=C:\ProgramData\Anaconda3
 set RUBY_LOC=C:\Ruby25-x64
 REM Default Parameters - Generate Configuration, Debug Build for MCB Hardware
 set SYNERGY=1
@@ -25,8 +25,8 @@ set COVERAGE=0
 set COMPLEXITY=0
 set PCLINT=0
 set HARDWARE=mcb
-set TYPE=Debug
-set TYPEDIR=Debug
+set TYPE=Release
+set TYPEDIR=Release
 ECHO *** Dealing with Arguments: %* ***
 :ARGUMENTLOOP
 if not "%1"=="" (
